@@ -42,7 +42,6 @@ header nav ul li a{
 }
 .menu{
     justify-content: space-between;
-    padding:5px;
 }
 .bottone{
     background-color: white;
@@ -162,32 +161,24 @@ footer section:nth-last-of-type(1){
 .content-list li:nth-child(1){
     color:#6f85d3;
 }
-
+.icone{
+    margin-top:20px;
+}
+.icone i{
+    margin-right:10px;
+}
 
 footer hr{
     border-color:#6f85d3;
 }
+
 footer section .menu{
     align-self: flex-end;
     align-items: center;
+    margin-bottom: 50px;
 }
-footer section .menu span{
-    padding:5px;
-    font-size: 10px;
-}
-
-
-
-
-
-
-
-/* DEBUG */
-
-.debug footer section .menu{
-    background-color: aquamarine;
-}
-.debug footer section .menu span{
-    background-color: pink;
-    border:1px dashed black;
+footer section .bottone{
+    background-color: #6f85d3;
+    color:white;
+    font-size: 12px;
 }
