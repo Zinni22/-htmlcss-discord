@@ -69,7 +69,7 @@ main header{
     width:60%;
     text-align: center;
 }
-h1, .primo-elemento p{
+h1, .primo-elemento > p{
     color:white;
     margin:40px;
 }
@@ -78,6 +78,13 @@ h1, .primo-elemento p{
     color: white;
     margin-left: 20px;
 }
+h2{
+    margin-bottom: 30px;
+}
+main section p{
+    width:250px;
+}
+
 .grey{
     background-color: lightgrey;
 }
@@ -85,12 +92,20 @@ h1, .primo-elemento p{
     background-color: white;
 }
 .content{
-    width:70%;
+    width:60%;
 }
 .aside{
-    width:30%;
+    width:40%;
+    padding-top:40px;
+}
+main section:nth-of-type(2) .aside{
+    padding-left: 150px;
 }
 .last-content{
+    width:100%;
+    text-align: center;
+}
+.last-content > p{
     width:100%;
 }
 
@@ -133,23 +148,6 @@ footer section .menu span{
 
 
 /* DEBUG */
-.aside,
-.content,
-.last-content{
-    height: 400px;
-    background-color: plum;
-    border:1px dashed black;
-}
-.debug main section .aside{
-    background-color: pink;
-}
-.debug main section .content{
-    background-color: rgb(78, 150, 250);
-}
-.debug main section .last-content{
-    height:800px;
-    background-color: green;
-}
 
 
 
