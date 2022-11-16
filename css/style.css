@@ -41,6 +41,7 @@ header nav ul li a{
     color:white;
 }
 .menu{
+    align-items: center;
     justify-content: space-between;
 }
 .bottone{
@@ -110,7 +111,8 @@ main section:nth-of-type(2) .aside{
 .last-content div{
     width:50%;
     background-image: url(../img/stars.svg);
-    background-size: 100% 100%;
+    background-position: top center;
+    background-repeat:no-repeat;
     padding:20px;
 }
 .last-content input{
@@ -145,6 +147,12 @@ footer section:nth-last-of-type(1){
 .contact img{
     width:20px;
 }
+.icone{
+    margin-top:20px;
+}
+.icone i{
+    margin-right:10px;
+}
 .lista{
     width:70%;
 }
@@ -161,12 +169,7 @@ footer section:nth-last-of-type(1){
 .content-list li:nth-child(1){
     color:#6f85d3;
 }
-.icone{
-    margin-top:20px;
-}
-.icone i{
-    margin-right:10px;
-}
+
 
 footer hr{
     border-color:#6f85d3;
